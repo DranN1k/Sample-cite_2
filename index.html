@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Work 5</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/iconsfont.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+	</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="conteiner main">
+			<div class="row">
+				<div class="col-xl-2 col-md-5 col-12 main__menu menu">
+					<div class="menu__body">
+						<div class="menu__logo">
+							<h2>LOGO</h2>
+						</div>
+						<ul class="menu__links">
+							<li class="menu__item icon-home">
+								Главная
+							</li>
+							<li class="menu__item icon-cart active">
+								Мои магазины
+							</li>
+							<li class="menu__item icon-microphone">
+								Промоматериалы
+							</li>
+							<li class="menu__item icon-Diagram">
+								Статистика
+							</li>
+							<li class="menu__item icon-wallet">
+								Баланс
+							</li>
+							<li class="menu__item icon-user">
+								Персональные данные
+							</li>
+							<li class="menu__item icon-question">
+								FAQ
+							</li>
+							<li class="menu__item icon-headset">
+								Техподдержка
+							</li>
+							<li class="menu__item icon-exit">
+								Выход
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-10 col-12   main__content content">
+					<div class="content__body">
+						<div class="content__info">
+							<div class="main__nav">
+								<div class="menu__burger">
+									<span></span>
+								</div>
+								<div class="content__title">Главная > Мои магазины</div>
+							</div>
+							<div class="content__user">
+								<div class="user__img">
+									<img src="/img/envelope.png" alt="">
+								</div>
+								<div class="user bg-light">
+									<img src="/img/фото.png" alt="" class="user__photo">
+									<div class="user__name">Имя пользователя</div>
+								</div>
+							</div>
+						</div>
+						<div class="content__btn">
+							<button class="btn btn-success"><b>+</b> Создать свой магазин </button>
+						</div>
+						<div class="content__options options">
+							<div class="options__title">Управление магазинами</div>
+							<div class="row">
+								<div class="col-xxl-11 col-xl-10 col-sm-12">
+									<div class="options__body">
+										<div class=" row options__info info">
+											<div class="col-xl-2 col-md-1 col-2 info__item"><b>№</b></div>
+											<div class="col-md-3 col-3 info__item"><b>Название</b></div>
+											<div class="col-md-3 col-3 info__item"><b>Адрес</b></div>
+											<div class="col-xl-4 col-md-5 col-3 info__item"><b>Действие</b></div>
+										</div>
+										<ul class="row options__list">
+											<li class=" options__item">
+												<div class="col-xl-2 col-md-1 col-12 info__item">12345</div>
+												<div class="col-md-3 col-12 info__item">Дипломная работа</div>
+												<a class="col-md-3 col-12 info__item">http://www.cite.ru/services</a>
+												<div class=" col-xl-4 col-md-5 col-12  info__item">
+													<button class="btn btn-success info__btn">
+														<img src="/img/карандаш 1.png" alt="">
+														Редактировать
+													</button>
+													<button class="btn btn-secondary info__btn">
+														<img src="/img/cansel.svg" alt="">
+														Редактировать
+													</button>
+												</div>
+											</li>
+											<li class=" options__item">
+												<div class="col-xl-2 col-md-1 col-12 info__item">12345</div>
+												<div class="col-md-3 col-12 info__item">Дипломная работа</div>
+												<a class="col-md-3 col-12 info__item">http://www.cite.ru/services</a>
+												<div class=" col-xl-4 col-md-5 col-12  info__item">
+													<button class="btn btn-success info__btn">
+														<img src="/img/карандаш 1.png" alt="">
+														Редактировать
+													</button>
+													<button class="btn btn-secondary info__btn">
+														<img src="/img/cansel.svg" alt="">
+														Редактировать
+													</button>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="popup" class="popup">
+				<div class="popup__body">
+					<div class="popup__content">
+						<div class="popup__head">
+							<div class="popup__title">Создать магазин</div>
+							<a href="" class="popup__close">X</a>
+						</div>
+						<div class="popup__main">
+							<div class="popup__form">
+								<div class="form__select">
+									<div class="select__item">
+										<label for="sample-select" class="popup__subtitle">Шаблон</label>
+										<select class="popup__selected" name="sample" id="sample-select">
+											<option value="">Стандартный</option>
+											<option value="dog">Не стандартный</option>
+											<option value="cat">Очень не стандартный</option>
+										</select>
+									</div>
+									<div class="select__item">
+										<label for="color-select" class="popup__subtitle">Цветовая схема</label>
+										<select class="popup__selected" name="color" id="color-select">
+											<option value="">Классическая</option>
+											<option value="dog">черная</option>
+											<option value="cat">Синяя</option>
+											<option value="hamster">Красная</option>
+										</select>
+									</div>
+								</div>
+								<div class="form__input">
+									<label for="input" class="popup__subtitle">Домен</label>
+									<div class="input__full">
+										<input class="popup__input" type="text" placeholder="Например: ivangrozniy">
+										<div class="href__domen">.work5.ru</div>
+									</div>
+								</div>
+								</form>
+							</div>
+							<div class="popup__info">
+								<div class="popup__img">
+									<img src="/img/предупреждение 1.svg" alt="">
+								</div>
+								<div class="popup__text">В названии домена разрешены латиница и “-”, запрещается
+									использовать словосочетание Work 5. После создания магазина Вы сможете прикрутить
+									свой домен (например ivangrozniy.ru). Подробнее по <a href="">ссылке</a></div>
+							</div>
+							<div class="popup__btn">
+								<button class="popup__btn-close">Отмена</button>
+								<button class="popup__btn-submit">Создать</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
